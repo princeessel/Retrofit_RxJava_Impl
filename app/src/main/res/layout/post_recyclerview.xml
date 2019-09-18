@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/post_reclerview_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tv_id"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_reclerview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_reclerview_id"
+            android:text="tv_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_reclerview_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_reclerview_name"
+            android:text="tv_email"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_reclerview_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_reclerview_email"
+            android:text="tv_body"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
